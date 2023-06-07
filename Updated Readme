@@ -1,0 +1,17 @@
+# SecureGuard
+
+![SecureGuard Logo](docs/images/secureguard_logo.png)
+
+SecureGuard is a comprehensive Python library that empowers developers to fortify their applications with robust security measures. From input sanitization to user authentication, it provides essential tools to protect against common vulnerabilities and ensure the integrity of your codebase.
+
+## Features
+
+- **Input Sanitization:** Prevent common vulnerabilities like SQL injection and cross-site scripting (XSS) attacks by utilizing the `sanitize_inputs()` decorator.
+- **User Authentication:** Add an extra layer of protection by leveraging the `authenticate_user()` decorator to verify user credentials before executing sensitive operations.
+
+## Installation
+
+To install SecureGuard, simply run the following command:
+
+```bash
+pip install secureguard
