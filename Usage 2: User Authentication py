@@ -1,0 +1,6 @@
+from secureguard.authenticate import authenticate_user
+
+@authenticate_user
+def perform_sensitive_operation(user):
+    # Your code logic here
+    pass
