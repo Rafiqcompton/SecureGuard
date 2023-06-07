@@ -1,0 +1,23 @@
+📦 SecureGuard
+ ┣ 📂 docs
+ ┃ ┣ 📂 images
+ ┃ ┃ ┗ 📜 secureguard_logo.png
+ ┃ ┣ 📜 README.md
+ ┃ ┗ 📜 faq.md
+ ┣ 📂 secureguard
+ ┃ ┣ 📜 __init__.py
+ ┃ ┣ 📜 sanitize.py
+ ┃ ┣ 📜 authenticate.py
+ ┃ ┗ 📜 utils.py
+ ┣ 📂 tests
+ ┃ ┗ 📜 test_secureguard.py
+ ┣ 📂 examples
+ ┃ ┗ 📜 app.py
+ ┣ 📜 LICENSE
+ ┣ 📜 README.md
+ ┣ 📜 CONTRIBUTING.md
+ ┣ 📜 CODE_OF_CONDUCT.md
+ ┣ 📜 .github
+ ┃ ┗ 📂 workflows
+ ┃ ┗ 📜 ci.yml
+ ┗ 📜 requirements.txt
