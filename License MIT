@@ -1,0 +1,12 @@
+
+Code Snippets:
+
+1. `secureguard/sanitize.py`:
+```python
+def sanitize_inputs(func):
+    def wrapper(*args, **kwargs):
+        # Sanitization logic
+        sanitized_args = sanitize(args)
+        sanitized_kwargs = sanitize(kwargs)
+        return func(*sanitized_args, **sanitized_kwargs)
+    return wrapper
